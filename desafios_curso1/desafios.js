@@ -51,23 +51,78 @@ if (numero >= 0) {
 */
 
 // Desafio 13
-let pontuacao1 = prompt("Digite o primeiro número de 1 a 100");
+/*let pontuacao = prompt("Digite um número de 1 a 100");
 
-let pontuacao2 = prompt("Digite o primeiro número de 1 a 100");
-
-let pontuacao3 = prompt("Digite o primeiro número de 1 a 100");
-
-let pontuacao4 = prompt("Digite o primeiro número de 1 a 100");
-
-let pontuacao5 = prompt("Digite o primeiro número de 1 a 100");
-
-soma = parseInt(pontuacao1 + pontuacao2 + pontuacao3 + pontuacao4 + pontuacao5)
-
-console.log(soma);
+console.log(pontuacao);
 
 
-if (soma >= 100) {
-    alert("Parabéns, você venceu! O resultado foi " + soma);
+if (pontuacao >= 100) {
+    alert("Parabéns, você venceu! O resultado foi " + pontuacao);
 } else {
     alert("Tente novamente para ganhar");
 }
+*/
+
+// Desafio 14
+/*let saldo = prompt("Informe o saldo de sua conta: ");
+
+informe = "O saldo da sua conta é R$";
+
+alert(`${informe} ${saldo}`);
+
+*/
+
+// Desafio 15
+/*let nome = prompt("Informe seu nome: ");
+
+alert(`Bem vindo ${nome}`);
+*/
+
+// Desafio 16
+/*alert("Boas vindas ao desafio!");
+let numero = 0;
+let contador = 1;
+
+while(contador <= 10){
+    numero += contador;
+    alert(`Contador ${contador}`);
+    contador++;
+}
+*/
+
+// Desafio 17
+/*alert("Seja bem vindo ao desafio!");
+
+let numero = 0;
+let contador = 10;
+
+while(contador >= 0){
+    numero -= contador;
+    alert(`Contador ${contador}`);
+    contador--;
+}
+*/
+
+// Desafio 18
+/*alert("Olá, seja bem vindo!");
+
+let numero = prompt("Escolha um número: ");
+let contador = 0;
+
+while(numero >= contador) {
+    alert(`Contador ${numero}`);
+    numero = numero - 1;
+}
+*/
+
+// Desafio 19 (não realizado)
+/*alert("Olá, seja bem vindo!");
+
+let numero = prompt("Escolha um número: ");
+let contador = 0;
+
+while(numero <= contador) {
+    alert(`Contador ${numero}`);
+    numero = numero + contador;
+}
+*/
