@@ -115,14 +115,38 @@ while(numero >= contador) {
 }
 */
 
-// Desafio 19 (não realizado)
+// Desafio 19 
 /*alert("Olá, seja bem vindo!");
 
 let numero = prompt("Escolha um número: ");
 let contador = 0;
 
-while(numero <= contador) {
+while(numero >= contador) {
     alert(`Contador ${numero}`);
-    numero = numero + contador;
-}
-*/
+    numero = numero - 1;
+}*/
+
+// Desafio 20
+//alert("Olá, seja bem vindo");
+
+// Desafio 21
+/*alert("Você está em nosso programa");
+let nome = prompt("Informe o seu nome:");
+
+console.log(`Olá ${nome}, seja bem vindo!`);*/
+
+// Desafio 21
+/*alert("Você está em nosso programa");
+
+let nome = prompt("Por favor, informe seu nome:");
+
+alert(`Olá ${nome}, seja bem vindo!`);*/
+
+// Desafio 22
+/*alert("Você está em nosso programa");
+
+let ling = prompt("Qual a linguagem de programação que você mais gosta?");
+
+alert(`A linguagem que você mais gosta é ${ling}`);*/
+
+// Desafio 23

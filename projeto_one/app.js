@@ -4,7 +4,7 @@ console.log(numeroSecreto);
 let chute;
 let tentativas = 1;
 
-// enquanto
+// Condicional "enquanto = while"
 while (chute != numeroSecreto) {
     chute = prompt("Escolha um número entre 1 e 10");
     // estrutura condicional
