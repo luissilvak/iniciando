@@ -208,6 +208,13 @@ while (contador <= 10) {
 }*/
 
 // Desafio 28
+/*alert("Você está em nosso programa");
 
+let nota = prompt("Informe uma nota: ");
 
-
+if (nota >= 7) {
+    alert(`Você recebeu nota ${nota}. Logo você está APROVADO.`);
+} else {
+    alert(`Você recebeu nota ${nota}. Logo você está REPROVADO.`);
+}
+*/
