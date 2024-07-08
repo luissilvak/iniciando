@@ -150,3 +150,64 @@ let ling = prompt("Qual a linguagem de programação que você mais gosta?");
 alert(`A linguagem que você mais gosta é ${ling}`);*/
 
 // Desafio 23
+/*alert("Você está em nosso programa");
+
+let valor1 = prompt("Informe um valor: ");
+valor1 = parseInt(valor1);
+let valor2 = prompt("Informe outro valor: ");
+valor2 = parseInt(valor2);
+
+resultado = valor1 + valor2;
+
+console.log(`O resultado da soma entre ${valor1} e ${valor2} é igual a ${resultado}.`);*/
+
+// Desafio 24
+/*alert("Você está em nosso programa");
+
+let valor1 = prompt("Informe um valor: ");
+valor1 = parseInt(valor1);
+
+let valor2 = prompt("Informe outro valor: ");
+valor2 = parseInt(valor2);
+
+resultado = valor1 - valor2;
+
+console.log(`O resultado da diferença entre ${valor1} e ${valor2} é igual a ${resultado}.`);*/
+
+// Desafio 25
+/*alert("Você está em nosso programa");
+
+let numero = prompt("Informe a sua idade: ");
+
+if (numero >= 18) {
+    alert("Você é maior de idade");
+} else {
+    alert("Você é menor de idade");
+}*/
+
+// Desafio 26
+/*alert("Você está em nosso programa");
+
+let numero = prompt("Informe um número: ");
+
+if (numero > 0) {
+    alert("Número positivo");
+} else if (numero < 0) {
+    alert("Número negativo");
+} else {
+    alert("Número igual a zero");
+}*/
+
+// Desafio 27
+/*alert("Você está em nosso programa");
+contador = 1;
+
+while (contador <= 10) {
+    alert(`${contador}`);
+    contador++;
+}*/
+
+// Desafio 28
+
+
+
