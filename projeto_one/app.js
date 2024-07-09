@@ -1,12 +1,13 @@
 alert("Boas vindas ao Jogo do Número Secreto");
-let numeroSecreto = 5;
+let quant = prompt("Informe a quantidade de números que você quer testar: ");
+let numeroSecreto = parseInt(Math.random() * quant + 1);
 console.log(numeroSecreto);
 let chute;
 let tentativas = 1;
 
 // Condicional "enquanto = while"
 while (chute != numeroSecreto) {
-    chute = prompt("Escolha um número entre 1 e 10");
+    chute = prompt(`Escolha um número entre 1 e ${quant}`);
     // estrutura condicional
     if (chute == numeroSecreto) {
         break;
