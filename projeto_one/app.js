@@ -4,12 +4,12 @@ console.log(numeroSecreto);
 let chute;
 let tentativas = 1;
 
-// enquanto
+// Condicional "enquanto = while"
 while (chute != numeroSecreto) {
     chute = prompt("Escolha um número entre 1 e 10");
     // estrutura condicional
     if (chute == numeroSecreto) {
-        alert(`Parabéns! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas.`);
+        break;
     } else {
         if (chute > numeroSecreto) {
             alert(`O número secreto é menor que ${chute}`);
@@ -20,3 +20,4 @@ while (chute != numeroSecreto) {
         tentativas++;
     }
 }
+

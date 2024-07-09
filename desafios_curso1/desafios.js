@@ -115,14 +115,106 @@ while(numero >= contador) {
 }
 */
 
-// Desafio 19 (não realizado)
+// Desafio 19 
 /*alert("Olá, seja bem vindo!");
 
 let numero = prompt("Escolha um número: ");
 let contador = 0;
 
-while(numero <= contador) {
+while(numero >= contador) {
     alert(`Contador ${numero}`);
-    numero = numero + contador;
+    numero = numero - 1;
+}*/
+
+// Desafio 20
+//alert("Olá, seja bem vindo");
+
+// Desafio 21
+/*alert("Você está em nosso programa");
+let nome = prompt("Informe o seu nome:");
+
+console.log(`Olá ${nome}, seja bem vindo!`);*/
+
+// Desafio 21
+/*alert("Você está em nosso programa");
+
+let nome = prompt("Por favor, informe seu nome:");
+
+alert(`Olá ${nome}, seja bem vindo!`);*/
+
+// Desafio 22
+/*alert("Você está em nosso programa");
+
+let ling = prompt("Qual a linguagem de programação que você mais gosta?");
+
+alert(`A linguagem que você mais gosta é ${ling}`);*/
+
+// Desafio 23
+/*alert("Você está em nosso programa");
+
+let valor1 = prompt("Informe um valor: ");
+valor1 = parseInt(valor1);
+let valor2 = prompt("Informe outro valor: ");
+valor2 = parseInt(valor2);
+
+resultado = valor1 + valor2;
+
+console.log(`O resultado da soma entre ${valor1} e ${valor2} é igual a ${resultado}.`);*/
+
+// Desafio 24
+/*alert("Você está em nosso programa");
+
+let valor1 = prompt("Informe um valor: ");
+valor1 = parseInt(valor1);
+
+let valor2 = prompt("Informe outro valor: ");
+valor2 = parseInt(valor2);
+
+resultado = valor1 - valor2;
+
+console.log(`O resultado da diferença entre ${valor1} e ${valor2} é igual a ${resultado}.`);*/
+
+// Desafio 25
+/*alert("Você está em nosso programa");
+
+let numero = prompt("Informe a sua idade: ");
+
+if (numero >= 18) {
+    alert("Você é maior de idade");
+} else {
+    alert("Você é menor de idade");
+}*/
+
+// Desafio 26
+/*alert("Você está em nosso programa");
+
+let numero = prompt("Informe um número: ");
+
+if (numero > 0) {
+    alert("Número positivo");
+} else if (numero < 0) {
+    alert("Número negativo");
+} else {
+    alert("Número igual a zero");
+}*/
+
+// Desafio 27
+/*alert("Você está em nosso programa");
+contador = 1;
+
+while (contador <= 10) {
+    alert(`${contador}`);
+    contador++;
+}*/
+
+// Desafio 28
+/*alert("Você está em nosso programa");
+
+let nota = prompt("Informe uma nota: ");
+
+if (nota >= 7) {
+    alert(`Você recebeu nota ${nota}. Logo você está APROVADO.`);
+} else {
+    alert(`Você recebeu nota ${nota}. Logo você está REPROVADO.`);
 }
 */
