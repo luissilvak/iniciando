@@ -20,4 +20,3 @@ while (chute != numeroSecreto) {
         tentativas++;
     }
 }
-
