@@ -218,3 +218,25 @@ if (nota >= 7) {
     alert(`Você recebeu nota ${nota}. Logo você está REPROVADO.`);
 }
 */
+
+// Desafio 29
+/*alert("Você está em nosso programa");
+
+let numero = parseInt(Math.random() * 10);
+
+alert(`O número aleatório é ${numero}`);*/
+
+// Desafio 30
+/*alert("Você está em nosso programa");
+
+let numero = parseInt(Math.random() * 10 + 1);
+
+alert(`O número aleatório é ${numero}`);*/
+
+// Desafio 31
+/*alert("Você está em nosso programa");
+
+let numero = parseInt(Math.random() * 1000 + 1);
+
+alert(`O número aleatório é ${numero}`);*/
+
