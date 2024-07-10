@@ -128,3 +128,26 @@ function mostrarTabuada() {
         contador++;
     }
 }
+
+// Desafio 17
+let listaGenerica = [];
+
+// Desafio 18
+let linguagensDeProgramacao = ['JavaScript','C','C++','Kotlin','Python'];
+
+// Desafio 19
+linguagensDeProgramacao.push('Java','Ruby','GoLang');
+//console.log(`${linguagensDeProgramacao}`);
+
+// Desafio 20
+let nomes = ['João', 'Maria', 'José'];
+//alert(`${nomes[0]}`);
+
+// Desafio 21
+let frutas = ['Laranja','Maçã','Banana'];
+//console.log(frutas[1]);
+
+// Desafio 22
+let marcasDeCarro = ['Fiat','Chevrolet','Volkswagen'];
+//console.log(marcasDeCarro[marcasDeCarro.length - 1]);
+
