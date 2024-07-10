@@ -74,3 +74,57 @@ function multipNumero () {
 
     alert(`O número ${numero}, multiplicado por ele mesmo dará ${mult}.`);
 }
+
+// Desafio 11
+function calcularIMC() {
+    let altura = prompt("Informe a sua altura: ");
+    let peso = prompt("Informe o seu peso: ");
+    let imc = parseInt(peso / (altura * altura));
+    alert(`O seu IMC é igual a ${imc}`);
+}
+
+// Desafio 12 (Não realizado)
+/*function calcularFatorial() {
+    let numero_fatorial = parseInt(prompt("Informe um número: "));
+    let resultado = numero_fatorial * (numero_fatorial * (numero_fatorial - 1));
+    alert(`O cálculo de ${numero_fatorial}! é igual a ${resultado}`);
+}
+*/
+
+// Desafio 13
+function converterMoeda() {
+    let valorReais = parseFloat(prompt("Informe um valor em reais: "));
+    let valorDolar = valorReais / 4.80 ;
+    alert(`O valor ${valorReais} é igual a ${valorDolar}`);
+}
+
+// Desafio 14
+function mostrarAreaRetangular() {
+    let altura = parseInt(prompt("Informe a altura da sala"));
+    let largura = parseInt(prompt("Informe a largura da sala"));
+    let area = altura * largura;
+    let perimetro = 2 * (largura + altura);
+    alert(`Em uma sala retangular, a área é igual a ${area} e o perímetro igual a ${perimetro}`);
+}
+
+// Desafio 15
+function mostrarAreaCircular() {
+    let raio = parseFloat(prompt("Informe o raio da sala"))
+
+    let area = 3.14 * (raio * raio);
+    let perimetro = 2 * 3.14 * raio;
+
+    alert(`Em uma sala circular, a área é igual a ${area} e o perímetro é igual a ${perimetro}`);
+}
+
+// Desafio 16
+function mostrarTabuada() {
+    let numero = parseInt(prompt("Informe um número: "));
+    contador = 0;
+
+    while (contador <= 10) {
+        resultado = numero * contador;
+        alert(`${numero} * ${contador} = ${resultado}`);
+        contador++;
+    }
+}
