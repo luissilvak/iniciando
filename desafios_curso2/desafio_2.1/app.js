@@ -1,19 +1,23 @@
 let desafio = document.querySelector('h1');
 desafio.innerHTML = 'Hora do Desafio';
 
+// Desafio 1
 function clicarBotaoConsole() {
     console.log('O botão foi clicado');
 }
 
+// Desafio 2
 function clicarBotaoAlerta() {
     console.log('Eu amo JS');
 }
 
+// Desafio 3
 function clicarBotaoPrompt() {
     let cidade = prompt('Informe uma cidade do Brasil: ');
     alert(`Estive em ${cidade} e lembrei de você.`);
 }
 
+// Desafio 4
 function clicarBotaoSoma() {
     let numero1 = parseInt(prompt('Informe um número: '));
     let numero2 = parseInt(prompt('Informe outro número: '));
@@ -22,21 +26,25 @@ function clicarBotaoSoma() {
     alert(`O resultado da soma entre ${numero1} e ${numero2} é igual a ${soma}.`);
 }
 
+// Desafio 5
 function exibirNomeNaTela() {
     alert("Olá, mundo!");
 }
 
+// Desafio 6
 function nomeNoConsole () {
     let nome = prompt("Informe o seu nome: ");
     alert(`Olá, ${nome}!`);
 }
 
+// Desafio 7
 function dobrarNumero () {
     let numero = parseInt(prompt("Informe um número: "));
     let dobro = numero * 2;
     alert(`O dobro de ${numero} é igual a ${dobro}`);
 }
 
+// Desafio 8
 function mediaNumero () {
     let numero1 = parseInt(prompt("Informe o primeiro número: "));
     let numero2 = parseInt(prompt("Informe o segundo número: "));
@@ -45,6 +53,7 @@ function mediaNumero () {
     alert(`A média entre os três números é igual a ${media}`);
 }
 
+// Desafio 9
 function maiorNumero () {
     let numero1 = parseInt(prompt("Informe um número: "));
     let numero2 = parseInt(prompt("Informe outro número: "));
@@ -58,6 +67,7 @@ function maiorNumero () {
     }
 }
 
+// Desafio 10
 function multipNumero () {
     let numero = parseInt(prompt("Informe um número:"));
     let mult = numero * numero;
