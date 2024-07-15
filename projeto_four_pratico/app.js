@@ -11,10 +11,11 @@ function alterarStatus(num) {
     // se o botão Devolver for clicado mudar o status Alugar
     if (verificarBotao) {
         botao.classList.remove('dashboard__item__button--return');
-        botao.innerHTML= ""
+        botao.innerHTML = 'Alugar';
     } else {
-        botao.classList.add('dashboard__item__button');
         botao.classList.remove('dashboard__item__button');
+        botao.classList.add('dashboard__item__button--return');
+        botao.innerHTML = 'Devolver';
     }
 }
 
