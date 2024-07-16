@@ -10,12 +10,14 @@ function alterarStatus(num) {
 
     // se o botão Devolver for clicado mudar o status Alugar
     if (verificarBotao) {
-        botao.classList.remove('dashboard__item__button--return');
-        botao.innerHTML = 'Alugar';
-    } else {
-        botao.classList.remove('dashboard__item__button');
-        botao.classList.add('dashboard__item__button--return');
+        //botao.classList.remove('dashboard__item__button--return');
+        botao.setAttribute('class', 'dashboard__item__button--return');
+        img.setAttribute('dashboard__item__img--rented');
         botao.innerHTML = 'Devolver';
+    } else {
+        botao.setAttribute('dashboard__item__button');
+        img.setAttribute('dashboard__item__img');
+        botao.innerHTML = 'Alugar';
     }
 }
 
