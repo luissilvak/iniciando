@@ -2,22 +2,27 @@
 
 function alterarStatus(x) {
     // Mudar o status de Alugar para Devolver
-    let jogo = document.getElementById(`game-${x}`);
-    let botao = jogo.querySelector('.dashboard__item__button'); 
-    let img = jogo.querySelector('.dashboard__item__img');
+    let jogoClicado = document.getElementById(`game-${x}`);
+    let img = jogoClicado.querySelector('.dashboard__item__img');
+    let botao = jogoClicado.querySelector('.dashboard__item__button'); 
 
-    let verificarBotao = botao.classList.contains('dashboard__item__button--return');
+    let verificarImagem = img.classList.contains('dashboard__item__img--rented');
 
     // Se o botão Devolver for clicado mudar o status Alugar
-    if (verificarBotao) {
-        img.classList.remove('dashboard__item__button--rented');
+    if (verificarImagem) {
+        img.classList.remove('dashboard__item__img--rented');
         botao.classList.remove('dashboard__item__button--return');
-        botao.innerHTML = 'Alugar';
+        botao.textContent = 'Alugar';
     } else {
-        img.classList.add('dashboard__item__button');
-        botao.classList.add('');
-        botao.innerHTML = 'Devolver';
+        img.classList.add('dashboard__item__img--rented');
+        botao.classList.add('dashboard__item__button--return');
+        botao.textContent = 'Devolver';
     }
 }
+
+// Devolução de Jogo
+
+
+// Saber quantos jogos foram alugados
 
 
