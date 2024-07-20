@@ -1,12 +1,10 @@
 // Projeto AluGames
 
-function alterarStatus(num) {
+function alterarStatus(x) {
     // Mudar o status de Alugar para Devolver
-    let jogo = document.getElementById(`game-${num}`);
-    
-    
-    let botao = num.querySelector('.dashboard__item__button'); 
-    let img = num.querySelector('.dashboard__item__img');
+    let jogo = document.getElementById(`game-${x}`);
+    let botao = jogo.querySelector('.dashboard__item__button'); 
+    let img = jogo.querySelector('.dashboard__item__img');
 
     let verificarBotao = botao.classList.contains('dashboard__item__button--return');
 
