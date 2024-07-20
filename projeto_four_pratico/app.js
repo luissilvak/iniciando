@@ -17,12 +17,17 @@ function alterarStatus(x) {
         img.classList.add('dashboard__item__img--rented');
         botao.classList.add('dashboard__item__button--return');
         botao.textContent = 'Devolver';
+        devolverJogo();
     }
 }
 
 // Devolução de Jogo
+function devolverJogo() {
 
+}
 
 // Saber quantos jogos foram alugados
+function informarQuantidade() {
 
+}
 
