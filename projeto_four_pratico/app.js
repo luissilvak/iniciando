@@ -21,12 +21,12 @@ function alterarStatus(x) {
     }
 }
 
-// Devolução de Jogo
+// Devolução de Jogo (Depois)
 function devolverJogo() {
 
 }
 
-// Saber quantos jogos foram alugados
+// Saber quantos jogos foram alugados (Depois)
 function informarQuantidade() {
 
 }
